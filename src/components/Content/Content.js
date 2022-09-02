@@ -2,17 +2,19 @@ import './Content.css';
 import React, { useState } from 'react';
 
 function Content() {
-  const [valor, setValor] = useState(0)
+  const [value, setValue] = useState(0)
+  const [buttonClass, setButtonClass] = useState('button-color-1')
 
   const handlerOnClick = () => {
-    setValor(valor + 1)
+    setValue(value + 1)
+    setButtonClass(`button-color-${Math.ceil(Math.random() * 10)}`)
   }
 
   return (
     <div className="Content">
       <h1>Aca va a estar la info de mi pumple</h1>
-      <h3>Y tenemos contador {valor}</h3>
-      <button onClick={handlerOnClick}>no toques el boton</button>
+      <h3>Y tenemos contador {value}</h3>
+      <button onClick={handlerOnClick} className={buttonClass}>no toques el boton</button>
     </div>
   );
 }
