@@ -1,0 +1,26 @@
+.Navbar {
+  position: fixed;
+  right: 0;
+  display: flex;
+  top: 40%;
+}
+
+.Navbar ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  list-style: none;
+  width: 200px;
+  height: 300px;
+}
+
+.Navbar ul li {
+  padding: 10%;
+}
+
+.Navbar ul li:hover {
+  color: black;
+}
+
+

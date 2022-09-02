@@ -1,0 +1,25 @@
+.Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.Content button {
+  text-align: center;
+  background-color: red;
+  color: white;
+  font-size: 30px;
+  height: 180px;
+  width: 180px;
+  border-radius: 100%;
+  border: 10px solid white;
+}
+
+.Content button:hover {
+  color: black;
+  background-color: white;
+  border: 10px solid red;
+}
