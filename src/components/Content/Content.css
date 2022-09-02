@@ -8,6 +8,15 @@
   width: 100%;
 }
 
+.Content h1 {
+  padding: 0px 20px 0px 20px;
+}
+
+.Content h4 {
+  text-align: left;
+  padding: 0px 20px 0px 20px;
+}
+
 .Content button {
   text-align: center;
   font-size: 30px;
