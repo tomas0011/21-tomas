@@ -73,7 +73,10 @@ function Content() {
             <div className={style.wp}></div>
           </a>
         </div>
-        
+        <div className={style.flechaWp}><p>Agendá el evento a tu calendario </p></div>
+        <div className={style.calendar}>
+          <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NTV1a2psZnUyNjBlNWdjM2h0ZG5ldDFtdWYgdG9tYXNiZW5qYW1pbjExN0Bt&amp;tmsrc=tomasbenjamin117%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_es-419.gif"/></a>
+        </div>
         <div className={style.buttonPres} onClick={()=>setb(1)}><p>Regalos🎁</p></div>
         {b==1?
         <div className={style.cardPresent}>
