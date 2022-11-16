@@ -34,6 +34,11 @@ function Content() {
   const marcText = "Lugar de la fiesta"
 
 
+  function setB(){
+    if(b==0)setb(1)
+    else setb(0)
+  }
+
 
 
   return (
@@ -77,7 +82,7 @@ function Content() {
         <div className={style.calendar}>
           <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NTV1a2psZnUyNjBlNWdjM2h0ZG5ldDFtdWYgdG9tYXNiZW5qYW1pbjExN0Bt&amp;tmsrc=tomasbenjamin117%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_es-419.gif"/></a>
         </div>
-        <div className={style.buttonPres} onClick={()=>setb(1)}><p>Regalos🎁</p></div>
+        <div className={style.buttonPres} onClick={setB}><p>Regalos🎁</p></div>
         {b==1?
         <div className={style.cardPresent}>
           <h3 className={style.title2}>Para dejarme un regalo:</h3> 
