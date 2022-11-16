@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/21-tomas/static/css/main.d7ceda95.css",
-    "main.js": "/21-tomas/static/js/main.3292c0eb.js",
+    "main.css": "/21-tomas/static/css/main.d938acdf.css",
+    "main.js": "/21-tomas/static/js/main.d436bff7.js",
     "static/media/traje de baño 1.png": "/21-tomas/static/media/traje de baño 1.155bedb9f2a2525036dd.png",
     "static/media/traje de baño 2.png": "/21-tomas/static/media/traje de baño 2.9e1d4ce0bdbe1e364947.png",
     "index.html": "/21-tomas/index.html",
-    "main.d7ceda95.css.map": "/21-tomas/static/css/main.d7ceda95.css.map",
-    "main.3292c0eb.js.map": "/21-tomas/static/js/main.3292c0eb.js.map"
+    "main.d938acdf.css.map": "/21-tomas/static/css/main.d938acdf.css.map",
+    "main.d436bff7.js.map": "/21-tomas/static/js/main.d436bff7.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7ceda95.css",
-    "static/js/main.3292c0eb.js"
+    "static/css/main.d938acdf.css",
+    "static/js/main.d436bff7.js"
   ]
 }
