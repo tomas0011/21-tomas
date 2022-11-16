@@ -2,9 +2,10 @@ import style from  './Content.module.css';
 import React, { useState } from 'react';
 import SimpleMap from './Map';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-import whatsappIcon from '../../utils/whatsappIcon.ico';
-import calendarIcon from '../../utils/calendarIcon.ico';
-import copypasteIcon from '../../utils/copypasteIcon.ico';
+import mapIcon from '../../utils/mapIcon.png';
+import whatsappIcon from '../../utils/whatsappIcon.png';
+import calendarIcon from '../../utils/calendarIcon.png';
+import copypasteIcon from '../../utils/clipboardIcon.png';
 
 
 function Content() {
@@ -57,6 +58,16 @@ function Content() {
         lng = {lng}
         marcText = {marcText}
       />
+      <div>
+        <a href="https://goo.gl/maps/zfJQmbnYuQnsCoGt7">
+          <button class={style.mapButton}>
+            <img class={style.icon} src={mapIcon}/>
+            Abrir mapa
+            <img class={style.icon} src={mapIcon}/>
+          </button>
+        </a>
+      </div>
+      
       <div className={style.traje}>
         <div>
           <h2 className={style.title3}> ⚠ Hay piscina ⚠ </h2>
@@ -88,13 +99,13 @@ function Content() {
             <p className={style.title2}>
               CBU: {CBU}
             </p>
-              <CopyToClipboard text={CBU} ><p className={style.Bcopy}><img src={copypasteIcon}/></p></CopyToClipboard>
+              <CopyToClipboard text={CBU} ><p className={style.Bcopy}><img class={style.icon} src={copypasteIcon}/></p></CopyToClipboard>
           </div>
           <div className={style.ALIAS}>
             <p className={style.title2}>
               Alias: {ALIAS}
             </p>
-            <CopyToClipboard text={ALIAS} ><p className={style.Bcopy}><img src={copypasteIcon}/></p></CopyToClipboard>
+            <CopyToClipboard text={ALIAS} ><p className={style.Bcopy}><img class={style.icon} src={copypasteIcon}/></p></CopyToClipboard>
           </div>
         </div>
       :null

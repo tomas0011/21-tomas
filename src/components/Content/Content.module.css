@@ -171,6 +171,16 @@ border: none;
   margin: 10px;
   border-radius: 5px;
 }
+.mapButton{
+  font-size: 20px;
+  color: white;
+  background-color:blue;
+  border-radius: 5px;
+  padding: 8px;
+  border: none;
+  display: flex;
+  padding: 10px;
+}
 .whatsappButton{
   font-size: 20px;
   color: white;
@@ -195,6 +205,7 @@ border: none;
 }
 .icon{
   margin: 0px 10px 0px 10px;
+  width: 20px;
 }
 @media screen and (max-width: 520px){
   .traje{
