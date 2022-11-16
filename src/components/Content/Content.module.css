@@ -1,0 +1,189 @@
+.Content {
+  background-image: linear-gradient(180deg,rgb(0, 14.7, 44) 0, rgb(3, 15.07, 45.98) 10%, rgb(6, 15.44, 47.96) 20%, rgb(9, 15.81, 49.94) 30%, rgb(12, 16.18, 51.92) 40%, rgb(15, 16.55, 53.9) 50%, rgb(18, 16.92, 55.88) 60%, rgb(21, 17.29, 57.86) 70%, rgb(24, 17.66, 59.84) 80%, rgb(27, 18.03, 61.82) 90%, rgb(30, 18.4, 63.8) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  width: 100%;
+  padding-bottom: 50px;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 179, 117);
+  font-size: 120px;
+  font-weight: bolder;
+  height: 110px;
+
+}
+.title2{
+  color: white;
+  text-align: left;
+}
+.title3{
+  color: rgb(255, 251, 0);
+  width: 200px;
+  text-align: center;
+}
+.name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  height: 110px;
+}
+.titlediv{
+  padding: 0;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.buttonPres{
+  background-color: rgb(255, 51, 146);
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  height: 70px;
+  width: 110px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+.buttonPres:hover{
+  opacity: 70%;
+}
+.flechaWp{
+
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  height: 70px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.wp{
+  background-image: url("../../utils/WhatsAppButtonGreenMedium.png");
+  background-repeat: no-repeat;
+  scale: 0.7;
+  width: 380px;
+  height: 80px;
+}
+.gif{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scale: 0.4;
+  height: 310px;
+  margin: -70px;
+}
+.marcador{
+  display: flex;
+  justify-content: center;
+  height: 10px;
+  width: 10px;
+  background-color: brown;
+  border-radius: 50%;
+  font-size: large;
+}
+.wp:hover{
+opacity: 70%;
+}
+.traje{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.traje1{
+  background-image: url('../../utils/traje\ de\ baño\ 1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  width: 150px;
+}
+.traje2{
+  background-image: url('../../utils/traje\ de\ baño\ 2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  width: 150px;
+}
+a{
+  text-decoration: none;
+}
+.map{
+  height: 40vh;
+  width: 50%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+.calendar{
+  margin-top: 30px;
+  margin-bottom: -10px;
+  scale: 1.5;
+}
+.CBU{
+  display: flex;
+  gap: 30px;
+}
+.ALIAS{
+  display: flex;
+  gap: 30px;
+}
+.BCopy{
+background-color: transparent;
+border: none;
+}
+.Bcopy:hover{
+  scale: 1.1;
+  cursor: pointer;
+  }
+
+.buttonsPresents{
+  display: flex;
+  margin: 20px;
+}
+.cardPresent{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 520px){
+  .traje{
+    scale: 0.8;
+  }
+  .buttonsPresents{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1000px){
+
+  .map{
+    height: 40vh;
+    width: 80% 
+  }
+  
+}
