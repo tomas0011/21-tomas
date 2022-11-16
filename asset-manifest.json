@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/21-tomas/static/css/main.44a6ce0f.css",
+    "main.css": "/21-tomas/static/css/main.c35637ed.css",
     "main.js": "/21-tomas/static/js/main.b73a21f6.js",
     "static/media/traje de baño 1.png": "/21-tomas/static/media/traje de baño 1.155bedb9f2a2525036dd.png",
     "static/media/traje de baño 2.png": "/21-tomas/static/media/traje de baño 2.9e1d4ce0bdbe1e364947.png",
     "static/media/mapIcon.png": "/21-tomas/static/media/mapIcon.4ba2450b71e973e57b09.png",
     "static/media/whatsappIcon.png": "/21-tomas/static/media/whatsappIcon.fdd4b7007148bcf6ce48.png",
     "index.html": "/21-tomas/index.html",
-    "main.44a6ce0f.css.map": "/21-tomas/static/css/main.44a6ce0f.css.map",
+    "main.c35637ed.css.map": "/21-tomas/static/css/main.c35637ed.css.map",
     "main.b73a21f6.js.map": "/21-tomas/static/js/main.b73a21f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.44a6ce0f.css",
+    "static/css/main.c35637ed.css",
     "static/js/main.b73a21f6.js"
   ]
 }
