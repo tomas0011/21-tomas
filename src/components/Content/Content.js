@@ -2,43 +2,39 @@ import style from  './Content.module.css';
 import React, { useState } from 'react';
 import SimpleMap from './Map';
 import swal from '@sweetalert/with-react'
+import { CopyToClipboard } from 'react-copy-to-clipboard';
+import Button from './buttons/button';
+
 
 function Content() {
-  const [value, setValue] = useState(0)
-  const [comentario, setComentario] = useState('')
   const number = "+543874736563"
   const text = "hola si voy a tu fiesta "
+  const [b,setb] = useState(0)
+
+  //AQUI DEBES INTRODUCIR LOS LINKS DE PAGO
+  const link1 = "pegar aqui el link de pago 1"
+  const link2 = "pegar aqui el link de pago 2"
+
+  //AQUI INTRODUCIR CBU Y ALIAS
+  const CBU = 300015487521547851
+  const ALIAS = "AliasDeTomas"
   
   //Aquí debes poner las coordenadas del centro del mapa y el zoom
   const defaultProps = {
     center: {
-      lat: -24.854499,
-      lng: -65.460731
+      lat: -34.61572577271519,
+      lng: -58.63448748068737
     },
     zoom: 17
   };
 
   //Aquí debes poner las coordenadas del marcador de la ubicación de la fiesta y el texto
-  const lat = -24.854499
-  const lng = -65.460731
+  const lat = -34.61572577271519
+  const lng = -58.63448748068737
   const marcText = "Lugar de la fiesta"
 
 
-  function Presents(){
-    swal(
-      <div>
-        <h1>Para dejarme un regalo:</h1>
-        <p>
-          CBU: 300015487521547851
-        </p>
-        <p>
-          Alias: TomasV
-        </p>
-        <a href={`Link1`}><p>🎁 Regalo 1</p></a>
-        <a href={`Link2`}><p>🎁 Regalo 2</p></a>
-      </div>
-    )
-  }
+
 
   return (
     <div className={style.Content}>
@@ -78,7 +74,37 @@ function Content() {
           </a>
         </div>
         
-        <div className={style.buttonPres} onClick={Presents}><p>Regalos</p></div>
+        <div className={style.buttonPres} onClick={()=>setb(1)}><p>Regalos🎁</p></div>
+        {b==1?
+        <div className={style.cardPresent}>
+          <h3 className={style.title2}>Para dejarme un regalo:</h3> 
+          <h3 className={style.title2}>Por Trasferencia:</h3> 
+          <div className={style.CBU}>
+            <p className={style.title2}>
+              CBU: 300015487521547851
+            </p>
+              <CopyToClipboard text={CBU} ><p className={style.Bcopy}>📄</p></CopyToClipboard>
+          </div>
+          <div className={style.ALIAS}>
+            <p className={style.title2}>
+              Alias: AliasDeTomas
+            </p>
+            <CopyToClipboard text={ALIAS} ><p className={style.Bcopy}>📄</p></CopyToClipboard>
+          </div>
+          <h3 className={style.title2}>ó link de pago...</h3> 
+          <div className={style.buttonsPresents}>
+            <Button
+              title={"Regalo 1 ->$5k<-"}
+              link={link1}
+            />
+            <Button
+              title={"Regalo 2 ->$10k<-"}
+              link={link1}
+            />
+          </div>
+        </div>
+      :null
+        }
     </div>
   );
 }
