@@ -24,11 +24,12 @@
 }
 .title2{
   color: white;
-  text-align: left;
+  margin: 0;
+  padding: 0;
 }
 .title3{
   color: #ffca49;
-  width: 200px;
+  width: 300px;
   text-align: center;
 }
 .name{
@@ -109,7 +110,6 @@ opacity: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
 }
 .traje1{
   background-image: url('../../utils/traje\ de\ baño\ 1.png');
@@ -172,7 +172,7 @@ border: none;
   border-radius: 5px;
 }
 .mapButton{
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 20px;
   color: black;
   background-color:#0893ff;
@@ -207,6 +207,14 @@ border: none;
 .icon{
   margin: 0px 10px 0px 10px;
   width: 20px;
+}
+.fecha{
+  margin-top: 20px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (max-width: 520px){
   .traje{

@@ -29,7 +29,7 @@ function Content() {
   //Aquí debes poner las coordenadas del marcador de la ubicación de la fiesta y el texto
   const lat = -34.61413904481874
   const lng = -58.70021781349223
-  const marcText = "Ubicacion"
+  const marcText = "UwU"
 
   function setB(){
     if(b==0)setb(1)
@@ -43,11 +43,9 @@ function Content() {
         <div className={style.title}><p>#21</p></div>
         <div className={style.title}><p>FEST</p></div>
       </div>
-      <div>
-        <h2 className={style.title2}>22:00 PM</h2>
-      </div>
-      <div>
-        <h2 className={style.title2}>¿ Lugar ?</h2>
+      <div className={style.fecha}>
+        <h2 className={style.title2}>Sabado 19 de Noviembre</h2>
+        <h2 className={style.title2}>-----  22:00 PM  ------</h2>
       </div>
       <div className={style.gif}>
         <img src='https://i.pinimg.com/originals/b6/fd/18/b6fd1893a54478eb393d13c5d1994ef7.gif' alt='gif'/>
@@ -67,13 +65,12 @@ function Content() {
           </button>
         </a>
       </div>
-      
       <div className={style.traje}>
         <div>
-          <h2 className={style.title3}> ⚠ Hay piscina ⚠ </h2>
+          <h2 className={style.title3}> ⚠ TRAER BEBIDAS ⚠ </h2>
+          <h2 className={style.title3}> ⚠ HAY PILETA ⚠ </h2>
         </div>
       </div>
-     
       <div>
           <a href={`https://wa.me/${number}?text=${text}`}>
             <button class={style.whatsappButton}>
