@@ -19,15 +19,15 @@ function Content() {
   //Aquí debes poner las coordenadas del centro del mapa y el zoom
   const defaultProps = {
     center: {
-      lat: -34.62623298094043,
-      lng: -58.626851830512045
+      lat: -34.61413904481874,
+      lng: -58.70021781349223
     },
     zoom: 15
   };
 
   //Aquí debes poner las coordenadas del marcador de la ubicación de la fiesta y el texto
-  const lat = -34.62623298094043
-  const lng = -58.626851830512045
+  const lat = -34.61413904481874
+  const lng = -58.70021781349223
   const marcText = "Ubicacion"
 
   function setB(){
@@ -59,7 +59,7 @@ function Content() {
       />
       <div className={style.traje}>
         <div>
-          <h2 className={style.title3}> ⚠ Hay picina ⚠ </h2>
+          <h2 className={style.title3}> ⚠ Hay piscina ⚠ </h2>
         </div>
       </div>
      
