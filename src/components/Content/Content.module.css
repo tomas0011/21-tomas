@@ -173,7 +173,10 @@ border: none;
   .traje{
     scale: 0.8;
   }
-
+  .buttonsPresents{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 1000px){
