@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/21-tomas/static/css/main.1480c754.css",
-    "main.js": "/21-tomas/static/js/main.dfbf0046.js",
+    "main.js": "/21-tomas/static/js/main.4296d4f7.js",
     "static/media/traje de baño 1.png": "/21-tomas/static/media/traje de baño 1.155bedb9f2a2525036dd.png",
     "static/media/traje de baño 2.png": "/21-tomas/static/media/traje de baño 2.9e1d4ce0bdbe1e364947.png",
     "static/media/calendarIcon.ico": "/21-tomas/static/media/calendarIcon.9b923c5fa41042bc0b6e.ico",
@@ -9,10 +9,10 @@
     "static/media/whatsappIcon.ico": "/21-tomas/static/media/whatsappIcon.ed9b9b7928f5931b00ae.ico",
     "index.html": "/21-tomas/index.html",
     "main.1480c754.css.map": "/21-tomas/static/css/main.1480c754.css.map",
-    "main.dfbf0046.js.map": "/21-tomas/static/js/main.dfbf0046.js.map"
+    "main.4296d4f7.js.map": "/21-tomas/static/js/main.4296d4f7.js.map"
   },
   "entrypoints": [
     "static/css/main.1480c754.css",
-    "static/js/main.dfbf0046.js"
+    "static/js/main.4296d4f7.js"
   ]
 }
